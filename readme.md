@@ -99,6 +99,7 @@ test = {'1.txt': 'a', '2.txt': 'b', '3.txt': 'c', '4.txt':'d', '5.txt': 'e'}
 ```bash
 cd task5 && python -m pytest -vls --html=tests/test1/report.html tests/test1/test1.py
 ```
+**Results**
 
 Without using fixtures
 <p align='center'>
@@ -134,6 +135,19 @@ cd task5 && python -m pytest -vls --html=tests/test2/report.html tests/test2/tes
 [HTML report](/task5/tests/test2/report.html)
 
 
+## Task 6
 
+1) Describe the design and process flow that you would follow to test a software functionality.
+
+- I would follow this steps:
+    - The first step is to have a list of requeriments for that functionality.
+    - You will need a pre-condition to start the test with things setted up.
+    - A Teardown for test if needed.
+    - You need to choose to which group of test will be added.
+    - A list of assertions and conditions where the test could pass/fail.
+    - A list of information you want to log during the test.
+    - Do the script with this information and start testing.
+    - Review the log and check the assertions conditions.
+    - Review the code if needed.
 
 
