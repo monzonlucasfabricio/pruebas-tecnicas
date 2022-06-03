@@ -39,7 +39,7 @@ Screenshot of Wasuh-agent interface on Windows
 Screenshot of alerts generated on wazuh-dashboard
 </p>
 
-The chosen alert on the screenshot can be seen on the file : [alert.json](alert.json)
+The chosen alert on the screenshot can be seen on the file : [alert.json](/task1/alert.json)
 
 
 ## Task 2
