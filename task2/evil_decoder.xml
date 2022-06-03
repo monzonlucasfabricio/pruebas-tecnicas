@@ -1,0 +1,9 @@
+<decoder name="evil">
+  <program_name>^evil</program_name>
+</decoder>
+
+<decoder name="childevil">
+  <parent>evil</parent>
+  <regex>User '(\w+)' from '(\d+.\d+.\d+.\d+)'</regex>
+  <order>dtuser, srcip</order>
+</decoder>

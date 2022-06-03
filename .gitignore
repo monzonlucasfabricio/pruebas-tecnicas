@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+task1/wazuh_agent_windows/.vagrant
+task1/wazuh_agent_linux/.vagrant
+task1/wazuh_manager/.vagrant
+base/
